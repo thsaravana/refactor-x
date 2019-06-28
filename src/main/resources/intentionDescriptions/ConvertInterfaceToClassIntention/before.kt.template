@@ -1,0 +1,8 @@
+<spot>interface X</spot> {
+    fun f()
+}
+
+class Y : X {
+    override fun f() {
+    }
+}

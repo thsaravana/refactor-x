@@ -8,10 +8,12 @@
     ]]></description>
 
     <depends>com.intellij.modules.lang</depends>
-    -->
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <intentionAction>
+            <className>intentions.ConvertInterfaceToClassIntention</className>
+            <category>RefactorX</category>
+        </intentionAction>
     </extensions>
 
     <actions>

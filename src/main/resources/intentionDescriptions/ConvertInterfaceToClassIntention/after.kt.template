@@ -1,0 +1,8 @@
+abstract class X {
+    abstract fun f()
+}
+
+class Y : X() {
+    override fun f() {
+    }
+}
