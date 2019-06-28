@@ -9,7 +9,7 @@ class ConvertInterfaceToClassIntention : BaseElementAtCaretIntentionAction() {
 
     override fun getText() = "Convert to 'abstract class'"
 
-    override fun getFamilyName() = "Convert Interface to Class"
+    override fun getFamilyName() = "Convert Interface to abstract class"
 
     override fun isAvailable(project: Project, editor: Editor?, element: PsiElement): Boolean {
         return true

@@ -12,7 +12,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <intentionAction>
             <className>intentions.ConvertInterfaceToClassIntention</className>
-            <category>RefactorX</category>
+            <category>Refactor X</category>
         </intentionAction>
     </extensions>
 
